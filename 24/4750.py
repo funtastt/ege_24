@@ -1,0 +1,1 @@
+print(max(len(w) for w in [w for w in open('24.txt').readline().split('.') if w.count('A') >= 3]))

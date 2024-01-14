@@ -1,0 +1,1 @@
+print(len([w for w in open('24.txt').readlines() if w.count('J') > w.count('E')]))
